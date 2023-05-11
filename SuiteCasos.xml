@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite Casos Trinidad Regresion Critica" >
+    <listeners>
+        <listener class-name="utils.Listeners.TestListener"/>
+        <listener class-name="utils.Listeners.AnnotationTransformer"/>
+    </listeners>
+    <test name="Test">
+        <classes>
+            <class name="testAplication.AutomatizacionTrinidad">
+                <methods>
+					<include name="Cotizacion"></include>
+                    <!--<include name="LoginTrinidadAdmin"></include>
+                    
+                    <include name="LoginTrinidadComercial">  </include>
+                    <include name="LoginTrinidadAdmision">  </include> 
+                    <include name="LoginTrinidadOperaciones">  </include>
+                    <include name="LoginTrinidadSeguimiento">  </include>
+                    <include name="LoginTrinidadFinanzas">  </include>
+                    <include name="LoginTrinidadCobranza">  </include>
+                    <include name="LoginTrinidadServicioAlCliente">  </include> -->
+					
+					
+
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
+
+
+
+
+
+
+
+
+
+
